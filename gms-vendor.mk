@@ -7,7 +7,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/google/gms/proprietary/product/etc/default-permissions/default-permissions-google.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/default-permissions/default-permissions-google.xml \
-    vendor/google/gms/proprietary/product/etc/permissions/com.google.android.dialer.support.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.android.dialer.support.xml \
     vendor/google/gms/proprietary/product/etc/permissions/privapp-permissions-google-comms-suite.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-google-comms-suite.xml \
     vendor/google/gms/proprietary/product/etc/permissions/privapp-permissions-google-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-google-product.xml \
     vendor/google/gms/proprietary/product/etc/permissions/split-permissions-google.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/split-permissions-google.xml \
@@ -92,45 +91,15 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     GoogleExtShared \
-    GooglePrintRecommendationService \
-    GooglePackageInstaller \
-    TagGoogle \
-    CalculatorGoogle \
-    CalendarGoogle \
-    Chrome64 \
-    DeskClockGoogle \
-    Drive \
     Gmail2 \
     GoogleContacts \
-    GoogleLocationHistory \
     LatinImeGoogle \
-    Maps \
     Photos \
-    SpeechServicesByGoogle \
-    TrichromeLibrary64 \
-    WebViewGoogle64 \
-    YouTube \
-    talkback \
-    AndroidAutoStub \
-    ConfigUpdater \
-    CrossDeviceServices \
-    FamilyLinkParentalControls \
-    FilesGoogle \
-    GWP \
     GmsCore \
     AndroidPlatformServices \
-    GoogleDialer \
-    GoogleOneTimeInitializer \
-    GooglePartnerSetup \
-    GoogleRestore \
     Messages \
-    PersonalSafety \
     Phonesky \
-    Turbo \
     Velvet \
     Wellbeing \
-    EmergencyInfoGms \
-    GoogleFeedback \
     GoogleServicesFramework \
-    SetupWizard \
-    com.google.android.dialer.support
+    SetupWizard

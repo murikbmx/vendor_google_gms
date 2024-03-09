@@ -30,10 +30,6 @@ PRODUCT_PACKAGES += \
     GmsTelecommOverlay \
     GmsTelephonyOverlay
 
-# Packages
-PRODUCT_PACKAGES += \
-    PartnerBookmarksProvider
-
 # Properties
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.com.google.gmsversion=14_202401 \
