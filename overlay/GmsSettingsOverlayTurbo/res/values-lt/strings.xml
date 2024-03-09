@@ -1,0 +1,6 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="battery_suggestion_summary" >"Įjunkite prisitaikantį akumuliatorių"</string>
+    <string name="smart_battery_manager_title" >"Prisitaikantis akumuliatorius"</string>
+    <string name="smart_battery_title" >"Naudoti prisitaikantį akumuliatorių"</string>
+    <string name="battery_tip_smart_battery_summary" >"Įjunkite prisitaikantį akumuliatorių"</string>
+</resources>

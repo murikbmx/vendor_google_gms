@@ -1,0 +1,6 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="battery_suggestion_summary" >"تغیر پذیر بیٹری آن کریں"</string>
+    <string name="smart_battery_manager_title" >"تغیر پذیر بیٹری"</string>
+    <string name="smart_battery_title" >"تغیر پذیر بیٹری استعمال کریں"</string>
+    <string name="battery_tip_smart_battery_summary" >"تغیر پذیر بیٹری آن کریں"</string>
+</resources>

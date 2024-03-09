@@ -1,0 +1,6 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="battery_suggestion_summary" >"\'Aanpasbaar batterijbeheer\' inschakelen"</string>
+    <string name="smart_battery_manager_title" >"Aanpasbaar batterijbeheer"</string>
+    <string name="smart_battery_title" >"\'Aanpasbaar batterijbeheer\' gebruiken"</string>
+    <string name="battery_tip_smart_battery_summary" >"\'Aanpasbaar batterijbeheer\' inschakelen"</string>
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2022 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Package name of the on-device intelligent processor for text. Examples
+        include providing autofill functionality based on incoming text
+        messages. -->
+    <string name="config_systemTextIntelligence" translatable="false">com.google.android.as</string>
+
+    <!-- Package name of the on-device intelligent processor for notification.
+         -->
+    <string name="config_systemNotificationIntelligence" translatable="false">com.google.android.as</string>
+
+    <!-- Package name of the on-device intelligent processor for audio. The
+         difference of 'ambient audio' and 'audio' is that in 'audio', the
+         user intentionally and consciously aware that the device is recording
+         or using the microphone.
+         -->
+    <string name="config_systemAudioIntelligence" translatable="false">com.google.android.as</string>
+
+    <!-- Package name of the on-device intelligent processor for visual
+         features. Examples include the autorotate feature. -->
+    <string name="config_systemVisualIntelligence" translatable="false">com.google.android.as</string>
+
+    <!-- Package name of the on-device intelligent processor for system UI
+         features. Examples include the search functionality or the app
+         predictor. -->
+    <string name="config_systemUiIntelligence" translatable="false">com.google.android.as</string>
+
+    <!-- The package name for the system's speech recognition service.
+         This service must be trusted, as it can be activated without explicit consent of the user.
+         Example: "com.android.speech/.RecognitionService"
+    -->
+    <string name="config_defaultOnDeviceSpeechRecognitionService" translatable="false">com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSpeechRecognitionService</string>
+
+    <!-- The package name for the system's augmented autofill service.
+         This service must be trusted, as it can be activated without explicit consent of the user.
+         If no service with the specified name exists on the device, augmented autofill wil be
+         disabled.
+         Example: "com.android.augmentedautofill/.AugmentedAutofillService"
+    -->
+    <string name="config_defaultAugmentedAutofillService" translatable="false">com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiAugmentedAutofillService</string>
+
+    <!-- The package name for the OEM custom system textclassifier service.
+         This service must be trusted, as it can be activated without explicit consent of the user.
+         Example: "com.android.textclassifier"
+         If this is empty, the default textclassifier service (i.e. config_servicesExtensionPackage)
+         will be used.
+
+         See android.view.textclassifier.TextClassificationManager.
+    -->
+    <string name="config_defaultTextClassifierPackage" translatable="false">com.google.android.as</string>
+
+    <!-- The package name for the system's content capture service.
+         This service must be trusted, as it can be activated without explicit consent of the user.
+         If no service with the specified name exists on the device, content capture will be
+         disabled.
+         Example: "com.android.contentcapture/.ContentcaptureService"
+    -->
+    <string name="config_defaultContentCaptureService" translatable="false">com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiContentCaptureService</string>
+
+    <!-- The package name for the system's app prediction service.
+         This service must be trusted, as it can be activated without explicit consent of the user.
+         Example: "com.android.intelligence/.AppPredictionService"
+    -->
+    <string name="config_defaultAppPredictionService" translatable="false">com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiPredictionService</string>
+
+    <!-- The component name for the default system attention service.
+         This service must be trusted, as it can be activated without explicit consent of the user.
+         See android.attention.AttentionManagerService.
+    -->
+    <string name="config_defaultAttentionService" translatable="false">com.google.android.as/com.google.android.apps.miphone.aiai.attention.service.AiAiAttentionService</string>
+
+    <!-- Flag indicating whether we should enable the adaptive sleep.-->
+    <bool name="config_adaptive_sleep_available">true</bool>
+
+    <!-- The component name for the system-wide captions manager service.
+         This service must be trusted, as the system binds to it and keeps it running.
+         Example: "com.android.captions/.SystemCaptionsManagerService"
+    -->
+    <string name="config_defaultSystemCaptionsManagerService" translatable="false">com.google.android.as/com.google.android.apps.miphone.aiai.captions.SystemCaptionsManagerService</string>
+</resources>

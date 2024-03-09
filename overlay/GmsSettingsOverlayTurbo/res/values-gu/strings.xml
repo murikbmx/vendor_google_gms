@@ -1,0 +1,6 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="battery_suggestion_summary" >"સુવિધાજનક બૅટરી ચાલુ કરો"</string>
+    <string name="smart_battery_manager_title" >"સુવિધાજનક બૅટરી"</string>
+    <string name="smart_battery_title" >"સુવિધાજનક બૅટરીનો ઉપયોગ કરો"</string>
+    <string name="battery_tip_smart_battery_summary" >"સુવિધાજનક બૅટરી ચાલુ કરો"</string>
+</resources>
